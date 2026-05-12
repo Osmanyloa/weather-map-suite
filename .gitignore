@@ -1,0 +1,36 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Large local inputs and generated products
+data/raw/**
+data/processed/**
+output/**
+*.grib
+*.grib2
+*.idx
+*.nc
+*.gif
+
+# Keep output and data folders visible in GitHub
+!data/raw/
+!data/raw/.gitkeep
+!data/raw/shapefiles/
+!data/raw/shapefiles/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
+!output/
+!output/.gitkeep
+!output/maps/
+!output/maps/.gitkeep
+!output/maps/*/
+!output/maps/*/.gitkeep
+!output/national_hurricane_center/
+!output/national_hurricane_center/.gitkeep
+!output/national_hurricane_center/*/
+!output/national_hurricane_center/*/.gitkeep
+!assets/
+!assets/.gitkeep

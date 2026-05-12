@@ -1,0 +1,24 @@
+[project]
+name = "weather-map-suite"
+version = "0.1.0"
+description = "Meteorological map production toolkit for regional weather and National Hurricane Center products."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Osmany Lorenzo Amaro" }]
+dependencies = [
+    "cartopy",
+    "cfgrib",
+    "eccodes",
+    "geopandas",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pillow",
+    "requests",
+    "scipy",
+    "shapely",
+    "xarray",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
